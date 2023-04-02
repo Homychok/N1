@@ -1,7 +1,8 @@
 -- liquibase formatted sql
 
 -- changeset Homychok:1
+
 CREATE TABLE users(
                       id         BIGSERIAL PRIMARY KEY,
-                      username   VARCHAR(60)
+                      user_name   VARCHAR(60)
 );
